@@ -1,0 +1,66 @@
+.take3main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.take3container {
+    width: 20vw;
+    height: 25vh;
+    /* border: solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    /* padding-left: 20px;
+    padding-top: 20px; */
+
+}
+
+.take3card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.take3content {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+    gap: 40px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    /* justify-content: space-around; */
+    gap: 30px;
+}
+
+.take3line1 {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+
+}
+
+.descriptions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.take3icons {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+}
